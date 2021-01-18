@@ -32,6 +32,7 @@ conjugationChoices = ['c', 'C', 'conjugation', 'Conjugation']
 
 def drill(prompt, form):
     guess = input(prompt)
+    # Give a clean way out
     if guess == 'done':
         print('Ciao!')
         quit()
@@ -44,6 +45,7 @@ def drill(prompt, form):
 
 if modeChoice in translationChoices:
     while True:
+        # Chooses a random verb row
         i = random.randint(1,len(splitverbs))
         print(splitverbs[i][1])
         drill('What French word is this? ', 0)
@@ -52,6 +54,7 @@ if modeChoice in conjugationChoices:
     i = random.randint(1,len(splitverbs))
     print(splitverbs[i][0], splitverbs[i][1])
     number_correct = 0
+    # This aligns things so I'm pulling from the correct column
     column = 2
     for form in forms:
         if drill(form, column):
@@ -59,6 +62,7 @@ if modeChoice in conjugationChoices:
         column = column + 1
     print('You got', number_correct, 'correct answers.')
     
+    # The brute force way to format!
     print('je         ', splitverbs[i][2])
     print('tu         ', splitverbs[i][3])
     print('il/elle    ', splitverbs[i][4])

@@ -1,0 +1,14 @@
+What I want this to do:
+
+Done: Accept a spreadsheet of verbs and alphabetize them
+    This will let me pull the list back out and see what is and isn't on it
+
+Done: Pull English definitions off the spreadsheet and ask for the plain translation
+    pull random verb, loop until ctrl+c
+
+Partially Done: Add to the spreadsheet source
+    would like another input interface but whatevs
+
+Start conjugation drills
+
+Be able to choose which I'm doing
