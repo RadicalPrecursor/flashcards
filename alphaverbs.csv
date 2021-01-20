@@ -1,14 +1,21 @@
 Verb,English,je,tu,il/elle,nous,vous,ils/elles
 accepter,to accept,accepte,acceptes,accepte,acceptons,acceptez,acceptent
+agir,to act,agis,agis,agit,agissons,agissez,agissent
+aimer,to like,aime,aimes,aime,aimons,aimez,aiment
 aller,to go,vais,vas,va,allons,allez,vont
+appartenir,to belong,appartiens,appartiens,appartient,appartenons,appartenez,appartiennent
 appeler,to call,appelle,appelles,appelle,appelons,appelez,appellent
 arriver,to arrive,arrive,arrives,arrive,arrivons,arrivez,arrivent
+assurer,to secure,assure,assures,assure,assurons,assurez,assurent
 attendre,to wait,attends,attends,attend,attendons,attendez,attendent
 avoir,to have,ai,as,a,avons,avez,ont
+changer,to change,change,changes,change,changeons,changez,changent
+choisir,to choose,choisis,choisis,choisit,choisons,choisez,choisent
 commencer,to begin,commence,commences,commence,commençons,commencez,commencent
 comprendre,to understand,comprends,comprends,comprend,comprenons,comprenez,comprennent
 compter,to count,compte,comptes,compte,comptons,comptez,comptent
 connaître,to be familiar with,connais,connais,connaît,connaissons,connaissez,connaissent
+considérer,to consider,considère,considères,considère,considérons,considérez,considèrent
 continuer,to continue,continue,continues,continue,continuons,continuez,continuent
 croire,to believe,crois,crois,croit,croyons,croyez,croient
 demander,to ask; to request,demande,demandes,demande,demandons,demandez,devandent
@@ -17,33 +24,54 @@ devoir,must; to have to,dois,dois,doit,devons,devez,doivent
 dire,to say,dis,dis,dit,disons,dites,disent
 donner,to give,donne,donnes,donne,donnons,donnez,donnent
 décider,to decide,décide,décides,décide,décidons,décidez,décident
+empêcher,to prevent,empêche,empêches,empêche,empêchons,empêchez,empêchent
 entendre,to hear,entends,entends,entend,entendons,entendez,entendent
-faire,to do; to make,fais,fais,fait,faisons,faites,font
+essayer,to try,essaye,essayes,essaye,essayons,essayez,essayent
+exister,to exist,existe,existes,existe,existons,existez,existent
+expliquer,to explain,explique,expliques,explique,expliquons,expliquez,expliquent
+faire,"to do, to make",fais,fais,fait,faisons,faites,font
+gagner,to win,gagne,gagnes,gagne,gagnons,gagnez,gagnent
+jouer,to play,joue,joues,joue,jouons,jouez,jouent
 laisser,to let,laisse,laisses,laisse,laissons,laissez,laissent
+lire,to read,lis,lis,lit,lisons,lisez,lisent
+mener,to lead,mène,mènes,mène,menons,menez,mènent
 mettre,to put,mets,mets,met,mettons,mettez,mettent
 montrer,to show,montre,montres,montre,montrons,montrez,montrent
 occuper,to occupy,occupe,occupes,occupe,occupons,occupez,occupent
+ouvrir,to open,ouvre,ouvres,ouvre,ouvrons,ouvrez,ouvrent
 parler,to speak,parle,parles,parle,parlons,parlez,parlent
 partir,to leave,pars,parts,part,partons,partez,partent
 passer,to pass,passe,passes,passe,passons,passez,passent
 penser,to think,pense,penses,pense,pensons,pensez,pensent
+perdre,to lose,perdre,perdres,perdre,perdons,perdez,perdent
 permettre,to allow,permets,permets,permet,permettons,permettez,permettent
 porter,to carry; to wear,porte,portes,porte,portons,portez,portent
+poser,to put down,pose,poses,pose,posons,posez,posent
 pouvoir,to be able to,peux,peux,peut,pouvons,pouvez,peuvent
 prendre,to take,prends,prends,prend,prenons,prenez,prennent
 présenter,to present,présente,présentes,présente,présentons,présentez,présentent
 rappeler,to call back,rappelle,rappelles,rappelle,rappelons,rappelez,rappellent
 recevoir,to receive,reçois,reçois,reçoit,recevons,recevez,reçoivent
+reconnaître,to recognize,reconnais,reconnais,reconnaît,reconnaissons,reconnaissez,reconnaissent
+refuser,to refuse,refuse,refuses,refuse,refusons,refusez,refusent
 remettre,to put back,remets,remets,remet,remettons,remettez,remettent
 rendre,to return,rends,rends,rend,rendons,rendez,rendent
+reprendre,to resume,reprend,reprends,reprend,reprenons,reprenez,reprennent
+représenter,to represent,représente,représentes,représente,représentons,représentez,représentent
 rester,to stay,reste,restes,reste,restons,restez,restent
+retrouver,to find; to regain,retrouve,retrouves,retrouve,retrouvons,retrouvez,retrouvent
 revenir,to return,reviens,reviens,revient,revenons,revenez,reviennent
+risquer,to risk,risque,risques,risque,risquons,risquez,risquent
 répondre,to reply,réponds,réponds,répond,répondons,répondez,répondent
+réussir,to succeed,réussis,réussis,réussit,réussissons,réussissez,réussissent
 savoir,to know,sais,sais,sait,savons,savez,savent
 sembler,to seem,semble,sembles,semble,semblons,semblez,semblent
 servir,to serve,sers,sers,sert,servons,servez,servent
+sortir,to go out,sors,sors,sort,sortons,sortez,sortent
 suivre,to follow,suis,suis,suit,suivons,suivez,suivent
 tenir,to hold; to keep,tiens,tiens,tient,tenons,tenez,tiennent
+toucher,to touch,touche,touches,touche,touchons,touchez,touchent
+travailler,to work,travaille,travailles,travaille,travaillons,travaillez,travaillent
 trouver,to find,trouve,trouves,trouve,trouvons,trouvez,trouvent
 venir,to come,viens,viens,vient,venons,venez,viennent
 vivre,to live,vis,vis,vit,vivons,vivez,vivent
