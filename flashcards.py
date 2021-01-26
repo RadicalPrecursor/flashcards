@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import random
 # I don't know if pre-defining things up here is strictly necessary
 # But it wasn't working before

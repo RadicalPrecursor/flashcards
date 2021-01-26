@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 verbs = []
 verbstring = ''
 with open('frenchverbs.csv') as f:
