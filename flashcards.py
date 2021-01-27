@@ -50,7 +50,13 @@ if modeChoice in translationChoices:
         # Chooses a random verb row
         i = random.randint(1,len(splitverbs))
         print(splitverbs[i][1])
-        drill('What French word is this? ', 0)
+        if drill('What French word is this? ', 0) == False:
+            second_guess = input('Try again? ')
+            if second_guess == splitverbs[i][0]:
+                print('Nickel!')
+            else:
+                print('The verb you were looking for is ',splitverbs[i][0])
+
 
 if modeChoice in conjugationChoices:
     i = random.randint(1,len(splitverbs))
