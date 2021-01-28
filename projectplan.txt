@@ -1,14 +1,35 @@
 What I want this to do:
 
+Keep "score" somehow
+    Create a separate document that updates each time
+    Would be cool to preserve time information to see progress
+
+More tenses in drills
+
+Come up with some tests to be sure I don't break anything as I muck around
+
+Add some nouns, and a noun mode
+    noun mode should include gender
+    Why does French assign everything a male or female gender?  EVERYTHING
+    I wonder how non-binary people in francophone cultures handle this
+
+
+****
+Partially Done: Add to the spreadsheet source
+    would like another input interface but whatevs
+
+****
 Done: Accept a spreadsheet of verbs and alphabetize them
     This will let me pull the list back out and see what is and isn't on it
 
 Done: Pull English definitions off the spreadsheet and ask for the plain translation
     pull random verb, loop until ctrl+c
+    Even better: closes upon "done"
 
-Partially Done: Add to the spreadsheet source
-    would like another input interface but whatevs
+Done: Be able to choose translation or conjugation
 
-Start conjugation drills
+Done: Give correct answers after conjugation drill
 
-Be able to choose which I'm doing
+Done: Allow a second try and then give correct answer in translation
+
+Done: Present-tense conjugation drills
