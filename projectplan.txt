@@ -1,5 +1,8 @@
 What I want this to do:
 
+*** Fix revenir/rendre definitions so they are not identical
+    figure out the nuance I guess
+
 Keep "score" somehow
     Create a separate document that updates each time
     Would be cool to preserve time information to see progress

@@ -31,6 +31,7 @@ with open('scorecard.txt','r') as lastrecords:
 
 # This bit generates a scorecard for the verblist starting from zero
 # Going to comment this out now
+
 """
 for verbs in splitverbs:
     verbscores = []
@@ -38,8 +39,19 @@ for verbs in splitverbs:
         scoreline = [verbform, 0, 0]
         verbscores.append(scoreline)
     scorecard.append(verbscores)
-"""
 
+# Let's try just keeping score in translation for now, that makes more snse.
+
+for verb in splitverbs:
+    verbscores = [verb[0], 0, 0]
+    scorecard.append(verbscores)
+
+print(scorecard)
+    
+with open('scorecard.txt','w') as record:
+    json.dump(scorecard, record)
+
+"""
 # Use this list for the conjugation forms
 forms =  ['je ', 'tu ', 'il/elle ', 'nous ', 'vous ', 'ils/elles ']
 
@@ -66,9 +78,13 @@ def drill(prompt, form):
             json.dump(scorecard, allrecords)
         quit()
     # I'm just taking i from earlier in the loop, maybe this is bad?
+#Ohhhhh this is going to be an issue
+# I think this is completely going to break conjugation mode
+# time to refactor
+# Update: conjugation mode seems to still work?
     if guess == splitverbs[i][form]:
         print('Nickel!')
-        scorecard[i][form][1] +=1
+        scorecard[i][1] +=1
         return True
     else:
         print('Nope, sorry')
@@ -83,10 +99,10 @@ if modeChoice in translationChoices:
             second_guess = input('Try again? ')
             if second_guess == splitverbs[i][0]:
                 print('Nickel!')
-                scorecard[i][0][1] +=1
+                scorecard[i][1] +=1
             else:
                 print('The verb you were looking for is ',splitverbs[i][0])
-                scorecard[i][0][2] +=1
+                scorecard[i][2] +=1
 
 
 if modeChoice in conjugationChoices:
